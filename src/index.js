@@ -1,6 +1,7 @@
 import Ctch from "catch-functions";
 
 export default class Runtime {
+  static ctch = Ctch;
   constructor(sandbox) {
     this.sandbox = sandbox;
   }
