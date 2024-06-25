@@ -2,5 +2,8 @@
   "name": "catch-runtime",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "browser": "./src/index.js"
+  "browser": "./src/index.js",
+  "dependencies": {
+    "catch-functions": "github:Catch-Coding/catch-functions#main"
+  }
 }
